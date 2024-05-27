@@ -165,6 +165,10 @@ footer a {
         margin-bottom: 26px;
     }
 
+    .footer-article {
+        /* width: 100%; */
+    }
+
     .menu {
         margin-top: 60px;
         margin-bottom: 30px;

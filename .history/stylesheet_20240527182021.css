@@ -157,12 +157,15 @@ footer a {
 
     .footer-content {
         height: 100%;
-        width: 100%;
         flex-direction: column;
     }
 
     .footer-about_text {
         margin-bottom: 26px;
+    }
+
+    .footer-article {
+        /* width: 100%; */
     }
 
     .menu {

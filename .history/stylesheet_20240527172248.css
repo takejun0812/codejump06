@@ -82,8 +82,8 @@ footer a {
 }
 
 .footer-article {
+
     width: 100%;
-    /* flex: 1; */
 }
 
 .footer-title {
@@ -133,9 +133,8 @@ footer a {
     line-height: 49px;
 }
 
-.footer-twitter {
+.twitter-timeline {
     display: block;
-    width: 100%;
 }
 
 .footer-company {
@@ -145,19 +144,14 @@ footer a {
 }
 
 @media screen and (max-width:768px) {
-    .footer-about_text {
-        width: 100%;
-    }
     footer {
         height: 100%;
-        width: 100%;
         margin-top: 5246px;
     }
 
 
     .footer-content {
         height: 100%;
-        width: 100%;
         flex-direction: column;
     }
 
