@@ -196,7 +196,6 @@ footer a {
 
 .footer-article {
     width: 100%;
-    /* flex: 1; */
 }
 
 .footer-title {
@@ -274,6 +273,7 @@ footer a {
     .article {
         margin-bottom: 30px;
     }
+
     .left-content-article {
         margin-bottom: 90px;
     }
