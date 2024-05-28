@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* 文字のみ指定 */
+body {
+    font-family: "Noto Sans JP", "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+a {
+    color: inherit;
+}
+
+/* 記事などの幅、marginを設定 */
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 16px;
+}
+
+.header-title a {
+    display: block;
+    text-align: left;
+}
+
+.header-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    background-color: #333333;
+    width: 100vw;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    color: white;
+
+}
+
+.header-menu_list {
+    display: flex;
+    overflow-x: scroll;
+    column-gap: 60px;
+}
+
+.header-menu_list a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #f7f7f7;
+    height: 508px;
+    padding-top: 50px;
+    margin-top: 2790px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.footer-content {
+    display: flex;
+    column-gap: 60px;
+}
+
+.footer-article {
+    width: 100%;
+    /* flex: 1; */
+}
+
+.footer-title {
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-about_text {
+    font-size: 14px;
+    margin-bottom: 22px;
+    line-height: 1.5;
+}
+
+.footer-about_list {
+    font-size: 14px;
+    display: flex;
+    flex-flow: column;
+    row-gap: 10px;
+}
+
+.footer-about_list li {
+    position: relative;
+    padding: 0px 0px 0px 1em;
+}
+
+.footer-about_list li::before {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    width: 0px;
+    height: 0px;
+    border: 0.4em solid transparent;
+    border-left: 0.7em solid black;
+    content: "";
+}
+
+.footer-menu_list {
+    border-bottom: 1px solid black;
+}
+
+.footer-menu_list li {
+    border-top: 1px solid black;
+    font-size: 14px;
+    padding-left: 15px;
+    line-height: 49px;
+}
+
+.footer-twitter {
+    display: block;
+    width: 100%;
+}
+
+.footer-company {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .footer-about_text {
+        width: 100%;
+    }
+    footer {
+        height: 100%;
+        width: 100%;
+        margin-top: 5246px;
+    }
+
+
+    .footer-content {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer-about_text {
+        margin-bottom: 26px;
+    }
+
+    .menu {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .footer-company {
+        margin-top: 90px;
+    }
+}
