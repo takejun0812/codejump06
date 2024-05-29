@@ -50,7 +50,6 @@ a {
     align-items: center;
     height: 36px;
     color: white;
-
 }
 
 .header-menu_list {
@@ -63,7 +62,6 @@ a {
     font-size: 14px;
     text-decoration: none;
 }
-
 
 .container-head-content {
     margin-top: 41px;
@@ -196,8 +194,6 @@ a {
     border-bottom: 1px solid black;
     padding: 20px;
 }
-
-
 
 footer {
     background-color: #f7f7f7;
